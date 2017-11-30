@@ -1,0 +1,57 @@
+body {
+  background: #6082a1;
+}
+
+.escopo {
+  background: #FFFFFF;
+  padding: 10px;
+  margin: 11vh 0;
+  border-radius: 6px;
+}
+.imagem {
+  width: 230px;
+  height: 58px;
+}
+
+.card-header{
+  border: none;
+  color: rgb(128, 126, 126);
+}
+
+input {
+  outline: 0;
+  border: 0;
+  background: #f1f1f1;
+  margin-bottom: 15px;
+  padding: 13px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-bottom: 1px solid transparent;
+}
+
+input:hover{
+  transition: 0.4s linear all;
+  border-bottom: 1px solid #3c8dbc;
+}
+
+.btn-primary {
+  outline: 0;
+  background: #3c8dbc;
+  text-transform: uppercase;
+  border: none;
+  padding: 13px;
+  font-size: 14px;
+  transition: 0.4s linear all;
+  cursor: pointer;
+}
+.btn-primary:hover{
+  background-color: #589cc4;
+}
+
+.btn-primary:focus, .btn-danger:focus, .btn-secondary:focus, .btn-info:focus{
+  box-shadow: none;
+}
+
+.btn-danger{
+  cursor: pointer;
+}
